@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 /* hero section start */
 .hero-banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-img.png');
@@ -21,7 +25,7 @@
     background-repeat: no-repeat;
     border-radius: 16px;
     padding: 250px 300px;
-    margin: 80px auto;
+    margin: 60px auto;
 }
 
 .hero-banner h3 {
@@ -39,10 +43,52 @@
     text-align: center;
     font-family: "Merriweather", serif;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
 }
 /* hero section end */
 
 
+/* special offer section start */
+#special-offer {
+    margin: 100px auto;
+}
+
+.special-offer-content {
+    text-align: center;
+}
+
+.special-offer-content h2 {
+    color: #F00;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.special-offer-content p {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.special-offer-content h3 {
+    color: #070211;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.special-offer-content .offer-img {
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.special-offer-content .offer-img img {
+    width: 100%;
+}
+
+/* special offer section end */
