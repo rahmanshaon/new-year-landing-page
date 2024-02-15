@@ -375,3 +375,76 @@ button:hover {
     transition: all 1s;
 }
 /* portfolio section end */
+
+
+/* newsletter section start */
+#newsletter {
+    margin-bottom: 150px;
+}
+
+.newsletter-content {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 180px;
+}
+
+.newsletter-content .mail-logo-img {
+    margin-bottom: 30px;
+}
+
+.newsletter-content .mail-logo-img img {
+    width: 120px;
+}
+
+.newsletter-content h2 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.newsletter-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.newsletter-content .subscribe-form form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-content .subscribe-form input {
+    width: 700px;
+    height: 60px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    outline: none;
+}
+
+.newsletter-content .subscribe-form button {
+    width: 200px;
+    height: 60px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+/* newsletter section end */
